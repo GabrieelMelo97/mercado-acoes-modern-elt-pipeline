@@ -1,6 +1,6 @@
 # Pipeline de Dados para Análise do Mercado de Ações
 
-Um pipeline de dados totalmente serverless que centraliza e prepara dados do mercado de ações das suas empresas selecionadas. É baseado em uma arquitetura de dados moderna e escalável para ingestão, transformação e análise de dados do mercado de ações usando GCS, PySpark, BigQuery, Composer (Airflow) e Terraform.
+Um pipeline de dados totalmente serverless que centraliza e prepara dados do mercado de ações de empresas selecionadas. É baseado em uma arquitetura de dados moderna e escalável para ingestão, transformação e análise de dados do mercado de ações usando GCS, PySpark, BigQuery, Composer (Airflow) e Terraform.
 
 A extração de dados da fonte é automatizada para recuperação diária de informações de preços de ações do **Yahoo Finance**. Em seguida, os dados são processados e modelados usando PySpark e carregados em um data warehouse moderno com um modelo dimensional para análise e visualização.
 
